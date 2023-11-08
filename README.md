@@ -5,7 +5,7 @@
 ![Commit activity](https://img.shields.io/github/commit-activity/y/FrancisCrickInstitute/CALM_Template?style=plastic)
 ![GitHub](https://img.shields.io/github/license/FrancisCrickInstitute/CALM_Template?color=green&style=plastic)
 
-## How to Make Use of this Template
+### How to Make Use of this Template
 
 You can create your own repository using this repo as a template. To do so, you need to first click on `+` dropdown menu on the top-right of this screen and select `New repository`:
 
@@ -49,13 +49,13 @@ But at the absolute minimum, your repository should include the following:
 
 This repository is intended only as a demo and to provide rough guidelines on how you should publish your own code. The main functional element here is a single, relatively sumple Jupyter Notebook - if you are publishing a FIJI macro or a MATLAB script, then your repository will look a little different, but the basic principles outlined above remain the same.
 
-A step-by-step guide is presented below. **You only need to perform steps 1 and 2 once.** Every subsequent time you want to run KimmelNet, skip straight to step 3.
+A step-by-step guide is presented below. **You only need to perform steps 1 and 2 once.** Every subsequent time you want to run the code, skip straight to step 3.
 
-### Step 1: Install a Python Distribution
+#### Step 1: Install a Python Distribution
 
 We recommend using conda as it's relatively straightforward and makes the management of different Python environments simple. You can install conda from [here](https://conda.io/projects/conda/en/latest/user-guide/install/index.html#regular-installation) (miniconda will suffice).
 
-### Step 2: Set Up Environment
+#### Step 2: Set Up Environment
 
 Once conda is installed, open a terminal (Mac) or command line (Windows) and run the following series of commands:
 
@@ -73,9 +73,9 @@ Hit Enter and all necessary packages will be downloaded and installed - this may
 ```
 conda deactivate
 ```
-You have successfully set up an environment to run KimmelNet!
+You have successfully set up an environment!
 
-### Step 3: Open the notebook
+#### Step 3: Open the notebook
 
 The following commands will launch a Jupyter notebook:
 ```
@@ -85,6 +85,6 @@ jupyter notebook <path to this repo>/zebrafish_age_estimator.ipynb
 
 The Jupyter Notebook should open in your browser - follow the step-by-step instructions in the notebook to run the code. If you are not familiar with Jupyter Notebooks, you can find a detailed introduction [here](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html#introduction).
 
-## (Optional) Step 4: Set up your repo to run on Binder
+#### (Optional) Step 4: Set up your repo to run on Binder
 
 [Binder](https://mybinder.org/) is a really nice way to allow people to run your Jupyter notebooks directly from GitHub - just [follow this handy guide from the Turing Institute](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html) to get your repo set up. To run the code in this template repo on Binder, click [here](https://mybinder.org/v2/gh/FrancisCrickInstitute/CALM_Template/HEAD?labpath=blob%2Fmain%2Fsegment_image.ipynb).
