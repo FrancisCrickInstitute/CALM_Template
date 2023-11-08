@@ -87,4 +87,4 @@ The Jupyter Notebook should open in your browser - follow the step-by-step instr
 
 ## (Optional) Step 4: Set up your repo to run on Binder
 
-This is a really nice way to allow people to run your code directly from GitHub.
+[Binder](https://mybinder.org/) is a really nice way to allow people to run your Jupyter notebooks directly from GitHub - just [follow this handy guide from the Turing Institute](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html) to get your repo set up. To run the code in this template repo on Binder, click [here](https://mybinder.org/v2/gh/FrancisCrickInstitute/CALM_Template/HEAD?labpath=blob%2Fmain%2Fsegment_image.ipynb).
