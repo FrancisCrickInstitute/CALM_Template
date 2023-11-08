@@ -5,6 +5,18 @@
 ![Commit activity](https://img.shields.io/github/commit-activity/y/FrancisCrickInstitute/CALM_Template?style=plastic)
 ![GitHub](https://img.shields.io/github/license/FrancisCrickInstitute/CALM_Template?color=green&style=plastic)
 
+## How to Make Use of this Template
+
+You can create your own repository using this repo as a template. To do so, you need to first click on `+` dropdown menu on the top-right of this screen and select `New repository`:
+
+![Screenshot](./resources/New_Repo.png)
+
+Then, select `FrancisCrickInstitute/CALM_Template` from the list of options that should appear when you click on the `Repository template` dropdown:
+
+![Screenshot](./resources/Select_Template_Screenshot.png)
+
+Complete the rest of the details and you should end up with a new repository that looks just like this one, which you can edit according to your needs.
+
 ## Overview
 
 This is a template repository that we recommend as a starting point for making available online any code you use for the purposes of image analysis. This might include, but is not limited to...
